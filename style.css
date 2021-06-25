@@ -1,6 +1,6 @@
 :root{
     --primaryColor: #fff;
-    --navColor1: #2129c;
+    --navColor1: #21292c;
     --navColor2: #aa3e39;
     --navColor3: #aa6e39;
     --navColor4: #236267;
@@ -149,11 +149,17 @@ section#contact{
 .change .bar2{
     opacity: 0;
 }
+.change .bar3{
+    transform: rotate(45deg) translate(-6px, -8px);
+}
 .bar1,
 .bar2,
 .bar3{
     width: 35px;
     height: 3px;
+    background-color: white;
+    margin: 8px 0;
+    transition: 0.4s;
 }
 
 /* Media Query: Large Smartphone (Vertical) */
