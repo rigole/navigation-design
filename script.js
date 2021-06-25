@@ -15,9 +15,11 @@ function toggleNav() {
     if (overlay.classList.contains('overlay-active')){
 
         // Animate In - Overlay
+        overlay.classList.remove('overlay-slide-left');
         overlay.classList.add('overlay-slide-right');
     }else{
         // Animate Out - Overlay
+        overlay.classList.remove('overlay-slide-right');
         overlay.classList.add('overlay-slide-left');
     }
 }
